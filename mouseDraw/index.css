@@ -1,0 +1,13 @@
+body{
+  background:#ccc;
+  text-align:center;
+}
+div{
+  margin:50px auto;
+  width:200px;
+}
+#can{
+  background:white;
+  margin-top:-50px;
+  display:inline-block;
+}
