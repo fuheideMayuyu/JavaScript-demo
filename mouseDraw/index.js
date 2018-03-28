@@ -5,11 +5,8 @@ window.onload = function () {
   var _og = _oc.getContext( "2d" );
   var _inp = document.getElementsByTagName("input");
 
-  _inp[0]=onclick=function(){
-    // _oc.style.display="block"
-  }
   _inp[1].onclick = function () {
-    _og.clearRect(0, 0, _oc.width, _oc.height)
+    _og.clearRect(0,0, _oc.width, _oc.height)
   }
   _oc.onmousedown = function (ev) {
     var ev = ev || event;
