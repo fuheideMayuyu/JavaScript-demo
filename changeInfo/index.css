@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size:14px;
+}
+ul{
+  list-style: none;
+}
+#container{
+  width: 1000px;
+  margin: 150px auto;
+}
+#header{
+  border-bottom:3px solid #f60;
+  height: 30px;
+}
+#header li{
+  font-weight:bolder;
+  float: left;
+  height: 30px;
+  width: 80px;
+  text-align:center;
+  line-height:30px;
+}
+/* cursor:光标属性 pointer表示一只手 */
+#header li:hover{
+  cursor:pointer;
+}
+#header .sec{
+  background: #f60;
+  color:#fff;
+}
+#listContent li{
+  font-size:16px;
+  height:30px;
+  line-height:30px;
+}
+#tips{
+  padding: 5px;
+  position:absolute;
+  left:0;
+  top: 0;
+  width: 400px;
+  border:2px solid #ff7700;
+  background-color:white;
+  display:none;
+}
+#tips li{
+  list-style:none;
+  font-size:16px;
+  height: 30px;
+  line-height:30px;
+}
+#tips li.col{
+  width:180px;
+  height: 30px;
+  float:left;
+  line-height:30px;
+  border-bottom:1px solid #ccc; 
+}
