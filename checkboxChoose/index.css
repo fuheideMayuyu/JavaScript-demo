@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+dl{
+  width: 130px;
+  border:1px solid #333;
+  border-radius:5px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #f2f2f2;
+}
+dt{
+  line-height: 40px;
+  border-bottom:1px solid #333;
+  text-align: left;
+}
+dd p{
+  line-height: 35px;
+}
+.info{
+  width: 475px;
+  line-height: 2em;
+  text-align: center;
+  font-size:12px;
+  background: #f2f2f2;
+  margin: 0 auto;
+}
