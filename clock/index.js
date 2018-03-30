@@ -4,6 +4,7 @@ window.onload=function(){
   var now=new Date(),
       //换算成时分秒
       prevTime = toZero(now.getHours())+toZero(now.getMinutes())+toZero(now.getSeconds()),
+      //下一秒为空
       nextTime="",
       arr=[],
       //  timer:定时器
@@ -15,7 +16,7 @@ window.onload=function(){
       }
       //一秒执行一次
       setInterval(toChange,1000);
-
+      //这里的顺序不能反，先执行了，才能拿到下一秒的时间
       function toChange(){
         var data=new Data();
         nextTime= toZero(now.getHours())+toZero(now.getMinutes())+toZero(now.getSeconds());
