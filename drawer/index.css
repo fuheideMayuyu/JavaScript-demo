@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+/* text-decoration:文本修饰 */
+a{
+  font-size:16px;
+  text-decoration: none;
+  color:#666;
+}
+div{
+  width: 300px;
+  margin: 20px auto;
+}
+/* text-indent:文本缩进 */
+.list li{
+  line-height: 40px;
+  height: 40px;
+  background:#efefef;
+  text-indent:1em;
+  margin-bottom:3px;
+  overflow:hidden;
+  transition:height 1s ease;
+  -webkit-transition:height 1s ease;
+  -moz-transition:height 1s ease;
+  -ms-transition:height 1s ease;
+  -o-transition:height 1s ease;
+}
+.list li img{
+  width: 300px;
+  height: 200px;
+}
+.list li:nth-child(1){
+  height: 240px;
+  background:#f36;
+}
+.list li:nth-child(1) a{
+  color:#fff;
+}
+.list:hover li{
+  height:40px;
+  background: #efefef;
+  animation:ttt 3s 1 forwards;
+}
+.list:hover li a{
+  color: #666666;
+}
+.list li:hover{
+  height: 240px;
+  background: #f36;
+}
+.list li:hover a{
+  color:#fff;
+}
